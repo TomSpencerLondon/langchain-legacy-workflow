@@ -5,7 +5,7 @@ from langchain_community.chat_models import ChatOpenAI
 from fpdf import FPDF
 
 # Set OpenAI API key
-os.environ["OPENAI_API_KEY"] = "<OPENAI_API_KEY>"
+os.environ["OPENAI_API_KEY"] = "your-api-key"
 
 def sanitize_text(text):
     """Replace unsupported Unicode characters with equivalents."""
