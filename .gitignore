@@ -1,0 +1,16 @@
+.idea/
+*.iml
+target/
+
+.classpath
+.project
+bin/
+.settings/
+
+# Gradle
+.gradle
+/build/
+/langchain_workflow/venv
+/langchain_workflow/.idea
+
+
